@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table{
+            border: 2px solid black;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        tr,th,td{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        span{
+            font-size: x-small;
+            padding: auto 0;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>S No</th>
+                <th>Cource</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>JavaScript</td>
+                <td>Full Stack Developer
+                    <span>(React,Angular,Vue,Svet,Next)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td rowspan="2">Python</td>
+                <td>AI & ML</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Backend Developer</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td rowspan="2">Java</td>
+                <td>Andriod Studio</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Backend Developer</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>C++</td>
+                <td rowspan="2">Game Developer</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>C#</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Swift</td>
+                <td>IOS Developer</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3">These Are All Our Cources</td>
+        </tfoot>
+    </table>
+</body>
+</html>
